@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "LastMileDeliveryTycoon",
+    "slug": "LastMileDeliveryTycoon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.existuus.LastMileDeliveryTycoon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.existuus.LastMileDeliveryTycoon"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@maplibre/maplibre-react-native",
+      "expo-router"
+    ],
+    "scheme": "lastmiledeliverytycoon",
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "4d669e9b-6537-4b80-aab7-6693f5121e71"
+      }
+    },
+    "owner": "existuus",
+    "runtimeVersion": {
+      "policy": "fingerprint"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d669e9b-6537-4b80-aab7-6693f5121e71",
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    }
+  }
+}
